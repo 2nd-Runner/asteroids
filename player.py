@@ -19,7 +19,6 @@ class Player(CircleShape):
     
     
     def draw(self, screen):
-        # sub-classes must override
         pygame.draw.polygon(screen, "white", self.triangle(), 2)
         
     
